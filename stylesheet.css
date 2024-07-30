@@ -1,10 +1,24 @@
-* {
-    background-color: rgb(10, 10, 42);
+body {
+    background-color: rgb(20, 34, 90);
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
-nav li{
-    color: white;
-    display: inline;
-    list-style-type: none;
+
+.header-list {
+    display: flex;
+    color:white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 2rem; 
+    justify-content: flex-end;
+    flex-wrap: wrap; 
+    margin-right: 20vw;
+}
+
+h2 {
+    margin-top: -25px;
+    color: aliceblue;
+    margin-left: 20vw;
 }
