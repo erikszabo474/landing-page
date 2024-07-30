@@ -1,0 +1,10 @@
+* {
+    background-color: rgb(10, 10, 42);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav li{
+    color: white;
+    display: inline;
+    list-style-type: none;
+}
