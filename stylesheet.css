@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(20, 34, 90);
+    background-color: #1F2937;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -14,11 +14,31 @@ body {
     gap: 2rem; 
     justify-content: flex-end;
     flex-wrap: wrap; 
-    margin-right: 20vw;
+    margin-right: 15vw;
 }
 
 h2 {
     margin-top: -25px;
     color: aliceblue;
-    margin-left: 20vw;
+    margin-left: 15vw;
+}
+
+#header-text {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    width:400px;
+    display: inline-block;
+    margin-left: 15vw;
+    margin-bottom: 0px;
+}
+
+#header-subtext {
+    color: #e5e7eb;
+    font-size: 18px; 
+    width: 420px;
+    margin-left: 15vw;
+
+
+
 }
