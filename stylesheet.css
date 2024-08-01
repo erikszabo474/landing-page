@@ -41,6 +41,7 @@ h2 {
     width: 420px;
     margin-left: 15vw;
     margin-top:-10vh;
+    margin-bottom: 15px;
 }
 
 #img-placeholder {
@@ -58,4 +59,17 @@ h2 {
     display: flex;
     gap: 7rem;
     margin-top:70px;
+
+}
+
+button {
+    background-color: #3882f6; 
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border:none; 
+    margin-left: 15vw;
+
+
+
 }
