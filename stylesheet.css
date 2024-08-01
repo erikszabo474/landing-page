@@ -2,6 +2,7 @@ body {
     background-color: #1F2937;
     font-family: 'Times New Roman', Times, serif;
     margin-top:10px;
+    box-sizing:border-box
     
 }
 
@@ -22,7 +23,6 @@ h2 {
     color: aliceblue;
     margin-left: 15vw;
 }
-
 
 
 #header-text {
@@ -83,6 +83,7 @@ button {
     margin-top: 15vh;
     margin-right: 0;
     margin-left: 0;
+    box-sizing: border-box;
 }
 
 .box1, .box2, .box3, .box4 {
@@ -90,11 +91,9 @@ button {
     border-radius: 10px;
     height: 150px;
     width: 150px;
+    box-sizing: border-box;
     
 }
-
-
-    
 
 
 #random-information {
@@ -104,7 +103,23 @@ button {
  font-weight: bolder;
  color:#1F2937;
   
+}
 
+.texts {
 
+    gap:3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
 
+.text-inside {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    flex: 1;
+    margin-top: 330px;
+    color: grey;
+  
 }
